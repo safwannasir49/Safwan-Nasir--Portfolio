@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safwan Nasir - Contact | AI Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Page Transition Overlay -->
+    <div class="page-transition" id="pageTransition"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-bar">
+            <div class="logo">Safwan <span>Nasir</span></div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="contact-hero">
+                <h1 class="contact-hero-title">Let's <span class="title-highlight">Connect</span></h1>
+                <p class="contact-hero-sub">Have a project idea in mind? Looking for AI consulting? Or just want to talk
+                    about the future of intelligence?</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left Column - Contact Info -->
+                <div class="contact-info-panel">
+                    <div class="info-panel-header">
+                        <i class="fas fa-paper-plane"></i>
+                        <h2>Get in Touch</h2>
+                    </div>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Email</h3>
+                                <p>safwannasir49@gmail.com</p>
+                                <!--<span class="response-time">Response within 24 hours</span>-->
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Phone</h3>
+                                <p>+91 9019518909</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Location</h3>
+                                <p>Bangalore, India</p>
+                                <span class="response-time">Available for remote</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="contact-social">
+                        <h3>Connect on Social</h3>
+                        <div class="contact-social-links">
+                            <a href="https://github.com/safwannasir49" class="contact-social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/safwan-nasir-955745219" class="contact-social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https:X.com/safwannasir49" class="contact-social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=iNOmucAAAAAJ&hl=en"
+                                class="contact-social-link">
+                                <i class="fab fa-google-scholar"></i>
+                                <span>Scholar</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="contact-availability">
+                        <h3><i class="fas fa-calendar-check"></i> Current Availability</h3>
+                        <div class="availability-badge">
+                            <span class="status-dot"></span>
+                            <span>Available for consulting and collaborations</span>
+                        </div>
+                        <p class="availability-note">Open to speaking engagements, workshops, and part-time advisory
+                            roles</p>
+                    </div>
+                </div>
+
+                <!-- Right Column - Contact Form -->
+                <div class="contact-form-panel">
+                    <h2>Send a Message</h2>
+
+                    <form class="contact-form-modern" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Optional">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiry-type">Inquiry Type *</label>
+                            <select id="inquiry-type" name="inquiry-type" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="consulting">AI Consulting</option>
+                                <option value="project">Project Collaboration</option>
+                                <option value="speaking">Speaking Engagement</option>
+                                <option value="workshop">Workshop/Training</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="6" required
+                                placeholder="Tell me about your project or inquiry..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to my newsletter for AI insights and updates</label>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="submit-btn-modern">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                            <p class="form-note">I'll get back to you within 24 hours</p>
+                        </div>
+                    </form>
+
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+
+            <!-- Map/Office Section -->
+            <div class="office-section">
+                <h2 class="section-title">Based in <span class="title-highlight">Bangalore</span></h2>
+                <p class="office-subtitle">Available for meetings remotely</p>
+
+                <div class="office-card">
+                    <div class="office-hours">
+                        <i class="fas fa-clock"></i>
+                        <div class="hours-details">
+                            <h3>Core Expertise</h3>
+                            <p>Machine Learning, Computer Vision, Deep Learning</p>
+                            <p>Full-Stack Web & Cloud Deployment</p>
+                        </div>
+                    </div>
+
+                    <div class="remote-option">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="remote-details">
+                            <h3>Project Impact</h3>
+                            <p>High-accuracy AI systems with real-time integration</p>
+                            <p>Optimized for scalability and performance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="section-title">Frequently Asked <span class="title-highlight">Questions</span></h2>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What types of projects do you take?</h3>
+                        <p>I specialize in AI/ML projects with focus on computer vision, LLMs, and real-time systems.
+                            From proof-of-concepts to production deployment.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you offer free consultations?</h3>
+                        <p>Yes! I offer a free 30-minute initial consultation to discuss your project and see if we're a
+                            good fit.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>What industries do you work with?</h3>
+                        <p>Healthcare, retail, security, and tech. Open to interesting problems across all industries.
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>How quickly do you respond?</h3>
+                        <p>I aim to respond to all inquiries within 24 hours on business days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2026 Safwan Nasir. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-scholar"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

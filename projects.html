@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safwan Nasir - AI Projects | Computer Vision & LLMs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Page Transition Overlay -->
+    <div class="page-transition" id="pageTransition"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-bar">
+            <div class="logo">Safwan <span>Nasir</span></div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="projects-hero">
+                <div class="projects-hero-content">
+                    <span class="projects-badge">
+                        <i class="fas fa-code-branch"></i> OPEN SOURCE & RESEARCH
+                    </span>
+                    <h1 class="projects-hero-title">
+                        Artificial Intelligence || Computer Vision <br>
+                        <span class="title-highlight">Projects</span>
+                    </h1>
+                    <p class="projects-hero-sub">
+                        Building production-ready AI systems with focus on computer vision,
+                        LLMs, and real-time architectures
+                    </p>
+                </div>
+            </div>
+
+            <!-- Project Stats -->
+            <div class="projects-stats">
+                <div class="projects-stat">
+                    <div class="projects-stat-number">6+</div>
+                    <div class="projects-stat-label">Total Projects</div>
+                </div>
+                <div class="projects-stat">
+                    <div class="projects-stat-number">1.2k+</div>
+                    <div class="projects-stat-label">GitHub Stars</div>
+                </div>
+                <div class="projects-stat">
+                    <div class="projects-stat-number">0.5M+</div>
+                    <div class="projects-stat-label">API Calls</div>
+                </div>
+                <div class="projects-stat">
+                    <div class="projects-stat-number">7</div>
+                    <div class="projects-stat-label">Research Papers</div>
+                </div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="vision">Computer Vision</button>
+                <button class="filter-btn" data-filter="llm">LLMs & NLP</button>
+                <button class="filter-btn" data-filter="streaming">Real-time</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+            </div>
+
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <div class="featured-content">
+                    <span class="featured-badge"><i class="fas fa-crown"></i> FEATURED PROJECT</span>
+                    <h2>DermAssist – Hybrid Vision Transformer for Skin Lesion Diagnosis</h2>
+                    <p class="featured-desc">
+                        AI-powered dermatology assistant using CNN + BEiT Transformers trained on DermNet, ISIC, and
+                        HAM10000 datasets.
+                        Classifies 7 skin cancer types with automated diagnostic reporting and real-time alerting for
+                        high-risk cases (>90% confidence).
+                    </p>
+                    <div class="featured-metrics">
+                        <span><i class="fas fa-brain"></i> 7 Cancer Classes</span>
+                        <span><i class="fas fa-shield-alt"></i> HIPAA-Compliant</span>
+                        <span><i class="fas fa-bolt"></i> >90% Risk Alert Trigger</span>
+                    </div>
+                    <div class="featured-tech">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>PyTorch</span>
+                        <span>BEiT</span>
+                        <span>AWS S3</span>
+                        <span>Streamlit</span>
+                        <span>Flask</span>
+                        <span>Twilio API</span>
+                    </div>
+                    <div class="featured-links">
+                        <a href="#" class="featured-link primary"><i class="fab fa-github"></i> Repository</a>
+                        <a href="#" class="featured-link secondary"><i class="fas fa-external-link-alt"></i> Live
+                            Demo</a>
+                        <a href="#" class="featured-link secondary"><i class="fas fa-file-alt"></i> Case Study</a>
+                    </div>
+                </div>
+                <div class="featured-visual">
+                    <div class="visual-placeholder">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Grid Section -->
+            <div class="projects-grid-section">
+                <h2 class="section-title">Engineering <span class="title-highlight">Projects</span></h2>
+
+                <div class="projects-grid" id="projectsGrid">
+
+                    <!-- Project A - Vision -->
+                    <div class="project-item" data-category="vision">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <div class="project-languages">
+                                <span>Python</span>
+                                <span>Flask</span>
+                            </div>
+                        </div>
+                        <h3>Real-Time Student Residence Identity Verification System</h3>
+                        <p class="project-desc">
+                            Vision Transformer-based identity verification system using OpenCV + pre-trained CNN with
+                            HOG features
+                            achieving 96.5% accuracy. Integrated Firebase logging and Twilio SMS alerts for curfew
+                            violations
+                            and unauthorized access detection.
+                        </p>
+                        <div class="project-tech">
+                            <span>Vision Transformers</span>
+                            <span>OpenCV</span>
+                            <span>HOG</span>
+                            <span>Firebase</span>
+                            <span>Twilio</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-stats">
+                                <span><i class="fas fa-chart-line"></i> 96.5% Accuracy</span>
+                                <span><i class="fas fa-database"></i> Realtime DB</span>
+                            </div>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project B - Vision -->
+                    <div class="project-item" data-category="vision">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-microscope"></i>
+                            </div>
+                            <div class="project-languages">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                            </div>
+                        </div>
+                        <h3>DermAssist – Skin Cancer Diagnostic System</h3>
+                        <p class="project-desc">
+                            Hybrid CNN + BEiT Vision Transformer trained on DermNet, ISIC, and HAM10000 datasets to
+                            classify
+                            7 skin cancer types. Generates diagnostic reports with automated Twilio alerts and secure
+                            AWS S3 storage.
+                        </p>
+                        <div class="project-tech">
+                            <span>BEiT</span>
+                            <span>TensorFlow</span>
+                            <span>PyTorch</span>
+                            <span>AWS S3</span>
+                            <span>Flask</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-stats">
+                                <span><i class="fas fa-shield-alt"></i> HIPAA Ready</span>
+                                <span><i class="fas fa-bell"></i> Auto Alerts</span>
+                            </div>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+
+                </div> <!-- Closing projects-grid -->
+            </div> <!-- Closing projects-grid-section -->
+
+            <!-- Research Projects Section -->
+            <div class="research-projects-section">
+                <h2 class="section-title">Research <span class="title-highlight">Projects</span></h2>
+
+                <div class="research-projects-list">
+
+                    <!-- Research Project 1: Cybersecurity Paper (NEW) -->
+                    <div class="research-project-card">
+                        <div class="research-project-header">
+                            <div class="research-project-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="research-project-title">
+                                <h3>Deconstructing Modern Cyber Threats: A Practical Perspective on Privacy,
+                                    Isolation, and Threat Mitigation for Personal Systems</h3>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-calendar-alt"></i> July 16, 2025
+                                </p>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-user"></i> Safwan Nasir
+                                </p>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-book"></i> Isolation, and Threat Mitigation for Personal
+                                    Systems
+                                </p>
+                                <p class="research-project-role">
+                                    <i class="fas fa-user-graduate"></i> Author
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="research-project-content">
+                            <p class="research-project-abstract">
+                                As individual targets of cyber threats are on the rise, individuals with little
+                                explicit advice for personal security are at a loss. The majority of academic
+                                literature on cybersecurity continues to focus on enterprise security models and
+                                algorithm development relevant to security. The community of users with no clear
+                                evidence of how to best secure or defend their day-to-day use of technology must
+                                navigate a complex and inconsistent array of tools to mitigate risk, if they do not
+                                simply abandon the effort altogether. This paper provides a hands-on evaluation of
+                                personal cyber security tools and strategies and is presented as a 'best effort'
+                                study, that does not attempt new machine learning models or experimental
+                                applications. Built on structured threat modeling and understanding the attack
+                                surfaces of our daily computing activities, the examination of tools across Windows,
+                                macOS, and Linux include: (operating systems) hardening; (applications) sandboxing,
+                                encryption, virtualization, and privacy-enhancement, among others. It is not implied
+                                that these are the best tools available to the user, rather descriptive comparisons
+                                of tools based on criteria such as usability, effectiveness, and sustainability.
+                                Although it is recognized that individual users find practical solutions conducive
+                                to the activity or job in which they are engaged, document-based communication for a
+                                review of tools such as VeraCrypt, Qubes OS, Tor, and DNS filtering will generate
+                                new insights which, hopefully, will offer actionable options for programs and users
+                                appearing in this paper including post-secondary students, investigative
+                                journalists, digital developers and activists.
+                            </p>
+
+                            <div class="research-project-tags">
+                                <span class="research-tag">Cybersecurity</span>
+                                <span class="research-tag">Privacy</span>
+                                <span class="research-tag">Threat Mitigation</span>
+                                <span class="research-tag">VeraCrypt</span>
+                                <span class="research-tag">Qubes OS</span>
+                                <span class="research-tag">Tor</span>
+                                <span class="research-tag">DNS Filtering</span>
+                                <span class="research-tag">Encryption</span>
+                            </div>
+
+                            <div class="research-project-links">
+                                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5353661"
+                                    class="research-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Research Project 2: RIT Intel CoE Lab -->
+                    <div class="research-project-card">
+                        <div class="research-project-header">
+                            <div class="research-project-icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <div class="research-project-title">
+                                <h3>Real-Time Student Residence Identity Verification System Using Vision
+                                    Transformers with Automated Alert Integration and Edge Optimization</h3>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-calendar-alt"></i> November 2023 – June 2024
+                                </p>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-university"></i> RIT Intel CoE Lab with Dr. Sinthuja
+                                    Muthurishnan
+                                </p>
+                                <p class="research-project-role">
+                                    <i class="fas fa-user-graduate"></i> Lead Researcher and Author
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="research-project-content">
+                            <ul class="research-project-list">
+                                <li>Researched existing identity verification systems, edge-based face recognition
+                                    frameworks, and alerting mechanisms to identify limitations in speed, accuracy,
+                                    and automation for student residence security environments.</li>
+                                <li>Designed and implemented a facial recognition system using OpenCV and a
+                                    pre-trained CNN with HOG features, applying image preprocessing (resizing,
+                                    normalization, grayscale) to optimize processing time and achieve <span
+                                        class="research-highlight">96.5% identification accuracy</span>.</li>
+                                <li>Integrated Firebase Realtime Database for secure access logging and Twilio API
+                                    for automated SMS alerts on unauthorized entries and student absences beyond
+                                    curfew hours (e.g., 10 PM), enhancing real-time responsiveness.</li>
+                                <li>Conducted robustness testing under varying lighting conditions, facial
+                                    expressions, and entry scenarios, and benchmarked performance against manual
+                                    identity tracking systems to demonstrate reductions in entry errors and
+                                    administrative workload.</li>
+                            </ul>
+
+                            <div class="research-project-tags">
+                                <span class="research-tag">Vision Transformers</span>
+                                <span class="research-tag">OpenCV</span>
+                                <span class="research-tag">HOG</span>
+                                <span class="research-tag">Firebase</span>
+                                <span class="research-tag">Twilio API</span>
+                                <span class="research-tag">Edge Computing</span>
+                            </div>
+
+                            <div class="research-project-links">
+                                <a href="https://www.techrxiv.org/users/917918/articles/1313395-real-time-student-residence-identity-verification-system-using-vision-transformers-with-automated-alert-integration-and-edge-optimization?commit=b25ccd429b8e20602959a5618977d9cbfe59d94c"
+                                    class="research-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
+                                <a href="#" class="research-link"><i class="fab fa-github"></i> Code Repository</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Research Project 3: RIT Embedded Systems Lab -->
+                    <div class="research-project-card">
+                        <div class="research-project-header">
+                            <div class="research-project-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="research-project-title">
+                                <h3>DermAssist: A Hybrid Vision Transformer System for Skin Lesion Diagnosis with
+                                    Automated Alerting and Dual-Sided Portals</h3>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-calendar-alt"></i> February 2025 – June 2025
+                                </p>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-university"></i> RIT Embedded Systems Lab with Dr. Shruthi G
+                                </p>
+                                <p class="research-project-role">
+                                    <i class="fas fa-user-graduate"></i> Lead Researcher and Author
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="research-project-content">
+                            <ul class="research-project-list">
+                                <li>Outlined the importance of early detection and compared conventional diagnostic
+                                    methods with technology-assisted systems for identifying skin cancer types such
+                                    as BCC, SCC, melanoma, and Merkel Cell Carcinoma, etc.</li>
+                                <li>Reviewed major skin lesion datasets and trained a multi-class classifier using
+                                    CNN and BEiT Vision Transformer models on DermNet, ISIC, and HAM10000, with
+                                    preprocessing and augmentation to enhance lesion visibility.</li>
+                                <li>Developed a lesion analysis pipeline using U-Net for segmentation, ResNet for
+                                    feature extraction, and incorporating ABCDE (Asymmetry, Border, Color, Diameter,
+                                    Evolving) rule-based shape, color, and texture features.</li>
+                                <li>Studied Grad-CAM and SHAP techniques for model interpretability and reviewed
+                                    dataset-specific studies, highlighting challenges such as false positives and
+                                    limited external validation.</li>
+                                <li>Identified key limitations such as segmentation accuracy, generalization, and
+                                    computational cost, and outlined future directions including multimodal
+                                    integration and low/zero-shot learning for rare condition detection.</li>
+                                <li>Developed a complete Dermatology Diagnosis Assistant that generates diagnostic
+                                    reports and auto-alerts dermatologists via Twilio API for high-confidence cases
+                                    (>90%).</li>
+                                <li>Implemented HIPAA-compliant, encrypted portals using Streamlit (patient) and
+                                    Flask (doctor), with AWS S3 for secure data storage.</li>
+                            </ul>
+
+                            <div class="research-project-tags">
+                                <span class="research-tag">BEiT</span>
+                                <span class="research-tag">CNN</span>
+                                <span class="research-tag">U-Net</span>
+                                <span class="research-tag">ResNet</span>
+                                <span class="research-tag">Grad-CAM</span>
+                                <span class="research-tag">SHAP</span>
+                                <span class="research-tag">Twilio API</span>
+                                <span class="research-tag">AWS S3</span>
+                                <span class="research-tag">HIPAA</span>
+                            </div>
+
+                            <div class="research-project-links">
+                                <a href="https://www.medrxiv.org/content/10.1101/2025.07.15.25331570v1"
+                                    class="research-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
+                                <a href="#" class="research-link"><i class="fab fa-github"></i> Code Repository</a>
+                                <a href="#" class="research-link"><i class="fas fa-external-link-alt"></i> Live
+                                    Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Research Project 4: EdgeViT++ -->
+                    <div class="research-project-card">
+                        <div class="research-project-header">
+                            <div class="research-project-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="research-project-title">
+                                <h3>EdgeViT++: Efficient Vision Transformers for Edge Devices via Dynamic Token
+                                    Pruning and Hybrid Quantization</h3>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-calendar-alt"></i> December 2024 – June 2025
+                                </p>
+                                <p class="research-project-meta">
+                                    <i class="fas fa-university"></i> Undergraduate Student Researcher
+                                </p>
+                                <p class="research-project-role">
+                                    <i class="fas fa-user-graduate"></i> Lead Researcher and Author
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="research-project-content">
+                            <ul class="research-project-list">
+                                <li>Explored the key challenges in deploying standard ViT models on edge hardware,
+                                    such as quadratic self-attention, uniform token processing, lack of early exits,
+                                    and memory inefficiency, emphasized their impact on real-time inference and
+                                    latency.</li>
+                                <li>Surveyed recent literature on efficient ViT design, including token pruning,
+                                    quantization-aware training (QAT), hybrid CNN-transformer architectures, and
+                                    AutoML-based optimization strategies, identifying gaps in unified, latency-aware
+                                    solutions.</li>
+                                <li>Proposed the EdgeViT++ conceptual framework — combining dynamic token pruning,
+                                    hybrid CNN-ViT structures, and 4-bit quantization — to theoretically enhance
+                                    performance under hardware and energy constraints without retraining.</li>
+                                <li>Analyzed mathematical formulations including entropy-based token saliency,
+                                    adaptive masking via learnable Gumbel-based strategies, memory footprint
+                                    modeling, and Pareto-front multi-objective trade-offs for inference-time
+                                    optimization.</li>
+                                <li>Benchmarked theoretical comparisons of EdgeViT++ with existing models (e.g.,
+                                    LeViT, DeiT, EfficientFormer), identifying strengths in terms of
+                                    accuracy-latency balance, VRAM consumption, and deployment compatibility on
+                                    Jetson devices.</li>
+                                <li>Explored practical deployment techniques such as ONNX graph simplification,
+                                    TensorRT integration, hardware-specific quantization tuning, and lightweight
+                                    knowledge distillation approaches.</li>
+                                <li>Discussed broader implications of efficient ViT design, including improving
+                                    model sustainability, supporting real-time edge AI, and making deep learning
+                                    more accessible on resource-constrained devices.</li>
+                            </ul>
+
+                            <div class="research-project-tags">
+                                <span class="research-tag">Vision Transformers</span>
+                                <span class="research-tag">Token Pruning</span>
+                                <span class="research-tag">Quantization</span>
+                                <span class="research-tag">ONNX</span>
+                                <span class="research-tag">TensorRT</span>
+                                <span class="research-tag">Jetson</span>
+                                <span class="research-tag">Edge AI</span>
+                            </div>
+
+                            <div class="research-project-links">
+                                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5319357"
+                                    class="research-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
+                                <a href="#" class="research-link"><i class="fab fa-github"></i> Code Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Closing research-projects-list -->
+            </div> <!-- Closing research-projects-section -->
+
+            <!-- Open Source Contributions -->
+            <div class="oss-section">
+                <h2 class="section-title">Open Source <span class="title-highlight">Contributions</span></h2>
+
+                <div class="oss-grid">
+                    <div class="oss-card">
+                        <div class="oss-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>PyTorch</h3>
+                        <p>Contributor to vision libraries and documentation</p>
+                        <span class="oss-prs">Merged PRs</span>
+                    </div>
+
+                    <div class="oss-card">
+                        <div class="oss-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Hugging Face</h3>
+                        <p>Added new model to Transformers library</p>
+                        <span class="oss-prs">Merged PRs</span>
+                    </div>
+
+                    <div class="oss-card">
+                        <div class="oss-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>OpenCV</h3>
+                        <p>Optimized DNN module for edge devices</p>
+                        <span class="oss-prs">Merged PRs</span>
+                    </div>
+
+                    <div class="oss-card">
+                        <div class="oss-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>LangChain</h3>
+                        <p>Added document loaders and tools</p>
+                        <span class="oss-prs">6 merged PRs</span>
+                    </div>
+                </div> <!-- Closing oss-grid -->
+            </div> <!-- Closing oss-section -->
+
+            <!-- GitHub Activity -->
+            <div class="github-activity">
+                <div class="github-stats">
+                    <div class="github-stat">
+                        <i class="fab fa-github"></i>
+                        <div class="github-stat-number">1.2k+</div>
+                        <div class="github-stat-label">Total Contributions</div>
+                    </div>
+                    <div class="github-stat">
+                        <i class="fas fa-code-branch"></i>
+                        <div class="github-stat-number">12</div>
+                        <div class="github-stat-label">Forks</div>
+                    </div>
+                    <div class="github-stat">
+                        <i class="fas fa-users"></i>
+                        <div class="github-stat-number">4</div>
+                        <div class="github-stat-label">Contributors</div>
+                    </div>
+                </div> <!-- Closing github-stats -->
+
+                <a href="https://github.com/safwannasir49" class="github-profile-btn">
+                    <i class="fab fa-github"></i>
+                    View GitHub Profile
+                </a>
+            </div> <!-- Closing github-activity -->
+        </div> <!-- Closing container -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2026 Safwan Nasir. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-google-scholar"></i></a>
+                </div>
+            </div> <!-- Closing footer-content -->
+        </div> <!-- Closing container -->
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Project Filtering
+        document.addEventListener('DOMContentLoaded', function () {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const projectItems = document.querySelectorAll('.project-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    // Get filter value
+                    const filter = this.getAttribute('data-filter');
+
+                    // Filter projects
+                    projectItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 50);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
